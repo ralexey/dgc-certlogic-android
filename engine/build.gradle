@@ -78,8 +78,8 @@ afterEvaluate{
         publications{
             release(MavenPublication){
                 from components.release
-                group = 'com.github.ralexey.dgca'
-                artifactId = 'engine'
+                group = 'com.github.ralexey'
+                artifactId = 'dgc-certlogic-android'
                 version = '1.0.0'
             }
         }
