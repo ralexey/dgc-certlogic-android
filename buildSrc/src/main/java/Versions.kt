@@ -43,4 +43,7 @@ object Versions {
 
     const val mockito_core = "3.9.0"
     const val mockito_kotlin = "3.2.0"
+
+    // Maven
+    const val maven_plugin = "1.5"
 }

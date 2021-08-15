@@ -2,7 +2,11 @@ plugins {
     id 'com.android.library'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'android-maven'
 }
+
+group = 'com.github.ralexey'
+version = Config.versionName
 
 android {
     compileSdkVersion Config.compileSdk
