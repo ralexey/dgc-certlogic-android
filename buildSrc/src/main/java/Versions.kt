@@ -23,7 +23,7 @@
 object Versions {
 
     // Base
-    const val gradle = "4.1.3"
+    const val gradle = "4.2.0"
     const val kotlin = "1.4.32"
 
     // Decoder
@@ -43,7 +43,4 @@ object Versions {
 
     const val mockito_core = "3.9.0"
     const val mockito_kotlin = "3.2.0"
-
-    // Maven
-    const val maven_plugin = "1.5"
 }
