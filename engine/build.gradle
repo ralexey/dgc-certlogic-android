@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.github.ralexey'
-version = Config.versionName
+version = '1.0.0'
 
 android {
     compileSdkVersion Config.compileSdk
