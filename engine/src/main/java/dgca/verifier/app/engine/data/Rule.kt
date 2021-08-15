@@ -1,7 +1,7 @@
 package dgca.verifier.app.engine.data
 
 import com.fasterxml.jackson.databind.JsonNode
-import java.time.ZonedDateTime
+import org.threeten.bp.ZonedDateTime
 import java.util.*
 
 /*-

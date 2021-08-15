@@ -1,7 +1,8 @@
 package dgca.verifier.app.engine
 
-import java.time.ZoneId
-import java.time.ZoneOffset
+import org.threeten.bp.ZoneId
+import org.threeten.bp.ZoneOffset
+
 
 /*-
  * ---license-start

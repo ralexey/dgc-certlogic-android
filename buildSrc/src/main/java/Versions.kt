@@ -22,6 +22,8 @@
 
 object Versions {
 
+    const val nbp310 = "1.5.1"
+
     // Base
     const val gradle = "4.2.0"
     const val kotlin = "1.4.32"

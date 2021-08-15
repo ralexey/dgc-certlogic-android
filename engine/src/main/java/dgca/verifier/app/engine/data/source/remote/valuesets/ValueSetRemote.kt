@@ -24,7 +24,7 @@ package dgca.verifier.app.engine.data.source.remote.valuesets
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.JsonNode
-import java.time.LocalDate
+import org.threeten.bp.LocalDate
 
 /*-
  * ---license-start

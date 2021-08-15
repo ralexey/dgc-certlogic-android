@@ -22,8 +22,9 @@
 
 package dgca.verifier.app.engine.data
 
-import java.time.ZonedDateTime
-import java.time.format.DateTimeFormatter
+import org.threeten.bp.ZonedDateTime
+import org.threeten.bp.format.DateTimeFormatter
+
 
 /*-
  * ---license-start

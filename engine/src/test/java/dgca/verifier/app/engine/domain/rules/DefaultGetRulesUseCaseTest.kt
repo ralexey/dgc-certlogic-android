@@ -39,7 +39,7 @@ import org.mockito.junit.MockitoJUnitRunner
 import org.mockito.kotlin.any
 import org.mockito.kotlin.doReturn
 import org.mockito.kotlin.eq
-import java.time.ZonedDateTime
+import org.threeten.bp.ZonedDateTime
 
 /*-
  * ---license-start

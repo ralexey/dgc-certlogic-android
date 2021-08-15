@@ -3,7 +3,7 @@ package dgca.verifier.app.engine.data.source.rules
 import dgca.verifier.app.engine.data.RuleCertificateType
 import dgca.verifier.app.engine.data.Rule
 import dgca.verifier.app.engine.data.Type
-import java.time.ZonedDateTime
+import org.threeten.bp.ZonedDateTime
 
 /*-
  * ---license-start

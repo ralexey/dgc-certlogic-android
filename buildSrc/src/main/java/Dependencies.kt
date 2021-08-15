@@ -45,4 +45,6 @@ object Deps {
     const val jackson_kotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:${Versions.jackson_kotlin}"
     const val jackson_datetype = "com.fasterxml.jackson.datatype:${Versions.jackson_datetype}"
     const val appache_commons = "commons-io:commons-io:${Versions.appache_commons}"
+
+    const val nbp310 = "org.threeten:threetenbp:${Versions.nbp310}"
 }

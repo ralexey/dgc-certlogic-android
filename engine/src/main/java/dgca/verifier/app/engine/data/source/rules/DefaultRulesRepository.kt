@@ -28,7 +28,7 @@ import dgca.verifier.app.engine.data.RuleIdentifier
 import dgca.verifier.app.engine.data.Type
 import dgca.verifier.app.engine.data.source.local.rules.RulesLocalDataSource
 import dgca.verifier.app.engine.data.source.remote.rules.RulesRemoteDataSource
-import java.time.ZonedDateTime
+import org.threeten.bp.ZonedDateTime
 import java.util.*
 
 /*-

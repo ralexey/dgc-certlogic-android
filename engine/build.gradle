@@ -71,6 +71,8 @@ dependencies {
     androidTestImplementation Deps.test_rules
     androidTestImplementation Deps.test_ext
     androidTestImplementation Deps.appache_commons
+
+    implementation Deps.nbp310
 }
 
 afterEvaluate{
@@ -80,7 +82,7 @@ afterEvaluate{
                 from components.release
                 group = 'com.github.ralexey'
                 artifactId = 'dgc-certlogic-android'
-                version = '1.0.0'
+                version = '1.0.5'
             }
         }
     }

@@ -24,7 +24,7 @@ package dgca.verifier.app.engine.data.source.remote.rules
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.JsonNode
-import java.time.ZonedDateTime
+import org.threeten.bp.ZonedDateTime
 
 /*-
  * ---license-start
