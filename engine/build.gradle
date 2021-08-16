@@ -82,7 +82,7 @@ afterEvaluate{
                 from components.release
                 group = 'com.github.ralexey'
                 artifactId = 'dgc-certlogic-android'
-                version = '1.0.5'
+                version = '1.0.6'
             }
         }
     }
