@@ -43,7 +43,8 @@ object Deps {
 
     const val jackson_cbor = "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:${Versions.jackson_cbor}"
     const val jackson_kotlin = "com.fasterxml.jackson.module:jackson-module-kotlin:${Versions.jackson_kotlin}"
-    const val jackson_datetype = "com.fasterxml.jackson.datatype:${Versions.jackson_datetype}"
+    //const val jackson_datetype = "com.fasterxml.jackson.datatype:${Versions.jackson_datetype}"
+    const val jackson_datetype = "com.github.joschi.jackson:jackson-datatype-threetenbp:${Versions.jackson_datetype}"
     const val appache_commons = "commons-io:commons-io:${Versions.appache_commons}"
 
     const val nbp310 = "org.threeten:threetenbp:${Versions.nbp310}"

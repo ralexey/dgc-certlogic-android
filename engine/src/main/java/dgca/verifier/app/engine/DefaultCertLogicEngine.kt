@@ -7,6 +7,7 @@ import com.fasterxml.jackson.module.kotlin.readValue
 import dgca.verifier.app.engine.data.CertificateType
 import dgca.verifier.app.engine.data.ExternalParameter
 import dgca.verifier.app.engine.data.Rule
+import com.fasterxml.jackson.datatype.threetenbp.ThreeTenModule
 
 /*-
  * ---license-start
@@ -43,7 +44,9 @@ class DefaultCertLogicEngine(
     }
 
     init {
-        objectMapper.findAndRegisterModules()
+        objectMapper.registerModule(
+            ThreeTenModule()
+        )
     }
 
     private fun prepareData(
